@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.5 on darwin)" generated="2025-08-13T12:02:59.820413" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.5 on darwin)" generated="2025-08-13T12:16:52.711615" rpa="false" schemaversion="5">
 <suite id="s1" name="Amazon Tests" source="/Users/jeanheberth/Documents/GitClone/automacaoRobot/primeiroTesteRobot/tests/amazon/amazon_tests.robot">
 <test id="s1-t1" name="Caso de teste 01 - Acesso ao menu &quot;Eletrônicos&quot;" line="10">
 <kw name="Abrir o navegador" owner="amazon_resources" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-08-13T12:02:59.889517" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2025-08-13T12:16:52.759706" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
 <arg>browser=chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-08-13T12:02:59.889443" elapsed="0.537304"/>
+<status status="PASS" start="2025-08-13T12:16:52.759636" elapsed="0.614398"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-08-13T12:03:00.426973" elapsed="0.390094"/>
+<status status="PASS" start="2025-08-13T12:16:53.374282" elapsed="0.373225"/>
 </kw>
-<status status="PASS" start="2025-08-13T12:02:59.889184" elapsed="0.928000"/>
+<status status="PASS" start="2025-08-13T12:16:52.759403" elapsed="0.988343"/>
 </kw>
 <kw name="Acessar a home page do site Amazon.com.br" owner="amazon_resources">
 <kw name="Go To" owner="SeleniumLibrary">
-<msg time="2025-08-13T12:03:00.817733" level="INFO">Opening url 'https://www.amazon.com.br'</msg>
+<msg time="2025-08-13T12:16:53.748441" level="INFO">Opening url 'https://www.amazon.com.br'</msg>
 <arg>url=${URL}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2025-08-13T12:03:00.817626" elapsed="1.613888"/>
+<status status="PASS" start="2025-08-13T12:16:53.748227" elapsed="2.358645"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>locator=${MENU_ELETRONICOS}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-08-13T12:03:02.431716" elapsed="0.010474"/>
+<status status="PASS" start="2025-08-13T12:16:56.107350" elapsed="0.014839"/>
 </kw>
-<status status="PASS" start="2025-08-13T12:03:00.817447" elapsed="1.624807"/>
+<status status="PASS" start="2025-08-13T12:16:53.748038" elapsed="2.374214"/>
 </kw>
 <kw name="Fechar o navegador" owner="amazon_resources" type="TEARDOWN">
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-08-13T12:03:02.442556" elapsed="0.086096"/>
+<status status="PASS" start="2025-08-13T12:16:56.122549" elapsed="0.088186"/>
 </kw>
-<status status="PASS" start="2025-08-13T12:03:02.442436" elapsed="0.086296"/>
+<status status="PASS" start="2025-08-13T12:16:56.122415" elapsed="0.088428"/>
 </kw>
 <doc>Esse teste seleciona o menu eletrônico e verifica a categoria
 Computadores e Informática</doc>
 <tag>menus</tag>
-<status status="PASS" start="2025-08-13T12:02:59.888850" elapsed="2.639937"/>
+<status status="PASS" start="2025-08-13T12:16:52.759110" elapsed="3.451787"/>
 </test>
 <doc>Este é o arquivo de testes do site Amazon.com.br</doc>
-<status status="PASS" start="2025-08-13T12:02:59.820828" elapsed="2.708184"/>
+<status status="PASS" start="2025-08-13T12:16:52.712077" elapsed="3.499063"/>
 </suite>
 <statistics>
 <total>
