@@ -45,3 +45,10 @@ Após a execução, os seguintes arquivos serão gerados na raiz do projeto:
 -   `output.xml`: Resultados em formato XML.
 
 Abra o `report.html` em seu navegador para ver um relatório completo e interativo.
+
+
+## Autor
+
+Este projeto foi desenvolvido por **Jean Heberth**.
+- GitHub: [JeanHeberth](https://github.com/JeanHeberth)
+- LinkedIn: [Jean Heberth](https://www.linkedin.com/in/jean-heberth-souza-vieira-725166150/)
