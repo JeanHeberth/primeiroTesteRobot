@@ -1,0 +1,21 @@
+# Ambiente Virtual
+.venv/
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log e relatório do Robot Framework
+*.log
+logs
+*.html
+*.xml
+*.png
+
+# Arquivos do sistema operacional
+.DS_Store
+
+# Arquivos de IDE
+.idea/
+*.swp
